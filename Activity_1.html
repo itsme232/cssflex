@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Flexbox Gallery</title>
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      box-sizing: border-box;
+      align-items: flex-start;
+      padding: 20px;
+    }
+    .header{
+      text-align: center;
+    }
+     .button2 {
+      background-color: #007FFF;
+    }
+    .image-container {
+      flex: 0 0 calc(33.33% - 20px);
+      margin: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-container img:hover {
+      transform: scale(1.1);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+transition: transform 0.3s ease-in-out;
+    }
+@media (max-width: 768px) {
+      .image-container {
+        flex: 0 0 calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .image-container {
+        flex: 0 0 calc(100% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>K-IDOLS GALLERY</h1>
+  </div>
+  <div class="image-container">
+    <img src="im1.jpg">
+     <b>Dahyun</b>
+       <p>is a South Korean singer and rapper. She is a member of the South Korean girl group Twice.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im2.jpg">
+    <b>Jeong-yeon</b>
+    <p>Yoo Jeong-yeon,is a South Korean singer and singer member of South Korean girl group Twice..</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im3.jpg">
+       <b>Momo</b>
+       <p>is a Japanese singer, rapper, and dancer based in South Korea,Twice member.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im4.jpg">
+       <b>Nayeon</b>
+       <p>is a South Korean singer. She rose to prominence as a member of the South Korean girl group Twice.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im5.jpg">
+       <b>Mina</b>
+       <p>is a Japanese singer and dancer based in South Korea.Member of Twice.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im6.jpg">
+       <b>Sana</b>
+       <p>Minatozaki Sana, born December 29, 1996[1]), known mononymously as Sana, is a Japanese singer.Memeber of Twice.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im7.jpg">
+       <b>Chaeyoung</b>
+       <p>Son Chae-young known mononymously as Chaeyoung, is a South Korean rapper and singer.Member of Twice</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im8.jpg">
+      <b>Ji-hyo</b>
+       <p>Park Ji-hyo known mononymously as Jihyo,She is the leader and vocalist of the South Korean girl group Twice.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im9.jpg">
+     <b>Tzuyu</b>
+       <p>Chou Tzu-yu, is a Taiwanese singer based in South Korea. She is a member of the South Korean girl group Twice.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im10.jpg">
+      <b>Minji</b>
+      <p>NewJeans Minji is a well-known South Korean rapper, singer, model, performer, media personality, content producer, and entrepreneur.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im11.jpg">
+    <b>Haerin</b>
+    <p>Haerin (해린) is a South Korean singer under ADOR. She is a member of the girl group NewJeans.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im12.jpg">
+    <b>Hanni</b>
+    <p>Hanni (하니) is a Vietnamese-Australian singer and member of NewJeans.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im13.jpg">
+    <b>Hyein</b>
+    <p>Hyein (혜인) is a South Korean singer and member of NewJeans and former member of USSO.GIRL.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im14.jpg">
+    <b>Danielle</b>
+    <p>Danielle (다니엘) is a Korean-Australian singer and member of NewJeans.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im15.jpg">
+    <b>Haewon</b>
+    <p>Haewon is a South Korean singer. She's the leader of the girl group NMIXX.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im16.jpg">
+    <b>Lily</b>
+    <p>is a Korean-Australian singer and actress. She is the main vocalist and eldest member of the girl group NMIXX.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im17.jpg">
+    <b>Jiwoo</b>
+    <p>is a South Korean singer under JYP Entertainment. She is the main rapper of the girl group NMIXX.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im18.jpg">
+    <b>Kyujin</b>
+    <p>is a member of the South Korean girl group NMIXX under JYP Entertainment</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im19.jpg">
+    <b>Bae</b>
+    <p>is a South Korean singer under JYP Entertainment. She is a member of the girl group NMIXX.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+ <div class="image-container">
+    <img src="im20.jpg">
+    <b>Sullyon</b>
+    <p>is a South Korean singer under JYP Entertainment. She is the visual of the girl group NMIXX.</p>
+<button class="button button2">Click Me!</button>
+  </div>
+</body>
+</html>
